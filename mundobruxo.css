@@ -1,0 +1,87 @@
+body{background-image:url(file:///C:/Users/nicol/Desktop/Meu%20Site/imagens_videos/hog.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+    font-family:ink free;
+    text-align:center;
+    letter-spacing:2px;
+    padding:50px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:10%;
+  }
+#cursor:hover{cursor:url(C:\Users\nicol\Desktop\Meu Site\pomo_cursorc.cur),default;
+    }
+h1{font-family:castellar;
+   color:white;
+   text-align:center;
+   font-size:300%;
+   letter-spacing:2px;
+   padding:50px;
+   }
+h2{font-family:castellar;
+  font-size:250%;
+  text-align:center;
+  color:black;
+  background-color: white;
+  }
+h3{font-family:castellar;
+  font-size:200%;
+  text-align:center;
+  background-color: rgb(89, 89, 89);
+}
+p{font-size:150%;
+  text-align:center;
+}
+a{text-decoration: none;
+  color:white;
+  font-family:ink free;
+  font-size:150%;
+}
+a:hover{text-decoration: underline;
+}
+header{font-size:700%;
+}
+section{float:left
+}
+#section{background-color: red;
+          opacity:6;
+        }
+aside{float:left;
+}
+#inside{background-color: white black;
+          opacity:6;
+        }
+.title{font-size:200%;
+          background-color:white;
+          font-family:alegrian;
+          text-align: center;
+          color:black;
+        }
+#title_hogwarts{background-color:white;
+                color:black;
+                font-family:castellar,sans-serif;
+                padding: 0;
+              }
+#história_hog{color:black;
+              background-color:white;
+              padding:0;
+              font-family: castellar,sans-serif;
+            }
+#pedra_livro{
+            float: left;
+}
+#pedra_filme{
+            float: right;
+}
+table{margin: auto 30% auto 30%;
+}
+.livro{float:left;
+      margin:auto 50% auto 20%;
+}
+.filme{float: right;
+      margin:auto 20% auto 50%;
+}
+table,th,td{border: 2px solid white;
+}
