@@ -2,10 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="Mundo Bruxo" content=Tudo sobre o mundo mágico de Harry Potter, história, curiosidade,personagens,etc..."/>
-    <meta name"keywords" content="Harry, Potter, Bruxo, hogwarts, varinha, grifinória, lufa-lufa, sonserina, corvinal"/>
+    <meta name="Mundo Bruxo" content="Tudo sobre o mundo mágico de Harry Potter, história, curiosidade,personagens,etc..."/>
     <link rel="stylesheet" type="text/css" href="mundobruxo.css">
-    <link rel="stylesheet" href="harry_p.ttf">
+    <link rel="stylesheet" href="PagesStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="SliderStyle.css">
       <title>Mundo Bruxo</title>
 
       <link rel="icon" href="varinha.ico">
@@ -14,35 +16,75 @@
 
     <header id="cursor">Mundo Bruxo</header>
       <nav >
-        <a href="Mundo Bruxo.html" title="Mundo Bruxo">Home</a>
+        <a href="index.html" title="Mundo Bruxo">Home</a>
         &nbsp
-        <a href="pages/Historia Hogwarts.html" title="História de Hogwarts">Hogwarts</a>
+        <a href="Historia Hogwarts.html" title="História de Hogwarts">Hogwarts</a>
         &nbsp
-        <a href="pages/Resumo_Coletanea.html" title="sinopses">Sinopses</a>
+        <a href="Resumo_Coletanea.html" title="sinopses">Sinopses</a>
         &nbsp
-        <a href="">Personagens</a>
+        <a href="personagens.html">Personagens</a>
         &nbsp
-        <a href="">Feitiços</a>
-        &nbsp
-        <a href="">Curiosidades</a>
-        &nbsp
-        <a href="">J.K Rowling</a>
+        <a href="jkrowling.html">J.K Rowling</a>
 
       </nav>
-          <div id="section">
+      <br>
+      <hr>
+      <br><br><br><br><br><br><br><br><br><br><br><br>
             <section>
+              <audio controls="controls" autoplay="autoplay">
+                <source src="musica/Harry Potter Theme Song.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+              </audio>
+              <br><br><br><br>
 
 
+              <h2 id="bem_vindo"></h2>
 
+              <br><br>
+                <h3>Aqui você poderá conhecer o mundo mágico da trama de Harry Potter</h3>
+
+                <figure>
+                  <span class="trs next"></span>
+                  <span class="trs prev"></span>
+               
+                  <div id="slider">
+                     <a href="#" class="trs"><img src="ima/image1.png" alt="Harry, Rony e Hermione" /></a>
+                     <a href="#" class="trs"><img src="ima/image2.jpg" alt="Harry no Olivaras comprando sua varinnha" /></a>
+                     <a href="#" class="trs"><img src="ima/image3.jpg" alt="Harry lendo um livro Reliquias da Morte parte 1" /></a>
+                     <a href="#" class="trs"><img src="ima/image4.jpg" alt="19 anos depois de sairem de Hogwarts, embarcando seus filhos no trem" /></a>
+                     <a href="#" class="trs"><img src="ima/image10.jpg" alt="Harry acariciando Bicuço" /></a>
+                     <a href="#" class="trs"><img src="ima/image6.jpg" alt="Batalha no Ministério da Magia" /></a>
+                     <a href="#" class="trs"><img src="ima/image8.jpg" alt="Hermione brigando com Draco por ter falado dobre o Bicuço" /></a>
+                     <a href="#" class="trs"><img src="ima/image9.jpg" alt="Harry e Bicuço" /></a>
+                     <a href="#" class="trs"><img src="ima/testrálios.jpg" alt="Harry e Luna com Testrálios" /></a>
+                     <a href="#" class="trs"><img src="ima/image7.jpg" alt="Harry, Rony e Hermione" /></a>
+                  </div>
+               
+                  <figcaption></figcaption>
+               </figure>
+
+                <a href="https://www.legiaodosherois.com.br/quiz/harry-potter-casas-hogwarts.html" class="link_home"></a>
+                  <div class="home">
+                    <img src="ima/chapeu_seletor.png" alt="chapeu seletor" class="img_div_left">
+                    <p class="p_left">Descubra aqui qual seria sua casa em Hogwarts</p>
+                  </div>
+                </a>
+
+                <a href="https://pt.quizur.com/quiz/harry-potter-qual-seria-o-seu-patrono-1O" class="link_home"></a>
+                  <div class="home">
+                    <img src="ima/Patronus-Harry-Potter-PNG.png" alt="Patronus" class="img_div_right">
+                    <p class="p_right">Descubra aqui seu Patrono</p>
+                  </div>
+                </a>
+
+                <a href="https://pt.quizur.com/quiz/qual-seria-sua-varinha-em-hogwarts-41ml" class="link_home">
+                  <div class="home">
+                    <img src="ima/var-removebg-preview.png" class="img_div_left">
+                    <p class="p_left">Descubra aqui qual seria sua varinha</p>
+                  </div>
+                </a>
             </section>
-          </div>
-          <div id="inside">
-            <aside>
-
-
-            </aside>
-          </div>
-      <footer>
-      </footer>
+      <script src="Galeria.js"></script>
+      <script src="mundobruxo.js"></script>
   </body>
 </html>

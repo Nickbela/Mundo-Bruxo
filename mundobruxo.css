@@ -1,0 +1,86 @@
+body{
+    background-image:url("ima/hog.gif");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+    font-family:ink free;
+    text-align:center;
+    letter-spacing:2px;
+    padding:50px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:10%;
+  }
+
+h1{
+  font-family:ink free;
+    color:white;
+    text-align:center;
+    font-size:300%;
+    letter-spacing:2px;
+    padding:50px;
+}
+
+h2{
+    font-family: ink free;
+    font-size:350%;
+    text-align:center;
+    color: rgba(247, 242, 242, 0.788);
+    text-shadow: 2px 2px black;
+}
+
+h3{
+    font-family: 'Indie Flower', cursive;
+    font-size:250%;
+    text-align:center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+p{
+    font-size:150%;
+    text-align:center;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+  font-family:ink free;
+  font-size:150%;
+}
+a:hover{
+        text-decoration: underline;
+}
+
+header{font-size:700%;
+        font-family:ink free;
+}
+
+section{float:left
+}
+
+#section{background-color: red;
+          opacity:6;
+}
+
+aside{float:left;
+}
+
+#inside{background-color: black;
+          opacity:6;
+}
+
+p ::selection{
+  text-shadow: 2px 2px white;
+}
+
+audio{
+  float:left;
+  margin-left:10px
+}
+
+.personagens:hover{
+  box-shadow: 4px 4px 5px rgba(173, 173, 173, 0.685);
+  zoom:102%;
+}

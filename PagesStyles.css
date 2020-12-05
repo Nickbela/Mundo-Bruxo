@@ -1,0 +1,104 @@
+.img_right{
+    float: left;
+}
+
+.img_right:hover{
+    box-shadow: 4px 4px 5px rgba(173, 173, 173, 0.685);
+    zoom:102%;
+}
+
+.img_left{
+    float: right;
+}
+
+.img_left:hover{
+    box-shadow: 4px 4px 5px rgba(173, 173, 173, 0.685);
+    zoom:102%;
+}
+
+table{margin: auto 30% auto 30%;
+}
+
+.FichaTecnica{
+    text-align: center  ;
+    margin:auto 50% auto 20%;
+}
+
+table,th,td{
+   border: 2px solid white;
+    text-align: center;
+}
+
+.title{font-size:200%;
+    background-color:white;
+    font-family:alegrian;
+    text-align: center;
+    color:black;
+}
+
+#title_hogwarts{background-color:white;
+          color:black;
+          font-family:castellar,sans-serif;
+          padding: 0;
+}
+
+#história_hog{color:black;
+        background-color:white;
+        padding:0;
+        font-family: castellar,sans-serif;
+}
+
+.p_left{
+    text-align: left;
+    height: 180px;
+    padding-top: 80px;
+    font-size: 200%;
+}
+
+.p_right{
+    text-align: right;
+    height: 180px;
+    padding-top: 80px;
+    font-size: 200%;
+}
+
+
+.home:hover{
+    box-shadow: 4px 4px 5px rgb(168, 166, 166);
+    background-color: rgba(187, 184, 184, 0.055);
+}
+
+
+
+.link_home{
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+
+.link_home:visited{
+    text-decoration: none;
+    color:rgb(79, 145, 172);
+}
+
+.link_home:hover{
+    text-decoration: none;
+}
+
+.img_div_left{
+    float: left;
+    width: 150px;
+    height: 200px;
+    padding: 15px;
+}
+
+.img_div_right{
+    float: right;
+    width: 150px;
+    height: 200px;
+    padding: 15px;
+}
+
+iframe{
+    border: 2px solid black;
+    margin-top: 50px;
+}
